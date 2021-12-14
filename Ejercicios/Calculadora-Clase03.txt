@@ -1,0 +1,11 @@
+def calcu(x:int,y:int,i:str):
+    if i == "+":
+        return x+y
+    elif i == "-":
+        return x-y
+    elif i == "*":
+        return x*y
+    elif i == "/":            
+        return x/y
+    else:
+        return "Operacion inválida"
